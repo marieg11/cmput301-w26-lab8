@@ -19,7 +19,7 @@ public class City {
 
     // To make "contains" work properly in tests
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { // I remember this from a previous lab
         if (this == o) return true;
         if (!(o instanceof City)) return false;
         City cityObj = (City) o;
